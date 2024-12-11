@@ -1,0 +1,234 @@
+@charset "UTF-8";
+header {
+    background: linear-gradient(135deg, #ff6b6b, #ff9f68);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff; 
+    margin: 20px 0;
+    padding: 15px;
+    background: linear-gradient(90deg, #f39c12, #e74c3c);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+header .slogan {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #ffd1b3;
+}
+.menu {
+    text-align: center;
+    margin: 20px auto;
+}
+.hamburguer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hamburguer h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.burger-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.adicionais {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.adicionais h4 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.adicionais label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order-button {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #c0392b;
+}
+
+.final-submit {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.final-order-button {
+    background-color: #27ae60;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.final-order-button:hover {
+    background-color: #2ecc71;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f3f3f3;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background: #ff9f68;
+    color: white;
+    padding: 10px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.download-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #e04e4e;
+    transform: translateY(-2px);
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+video {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+
+}
+.thank-you-section {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ecf0f1; 
+    border: 2px solid #bdc3c7; 
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-section .thank-you {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #34495e; 
+    margin: 0;
+}
